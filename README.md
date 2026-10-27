@@ -1,12 +1,3 @@
----
-title: Handwritten Digit Recognizer
-emoji: ✍️
-colorFrom: indigo
-colorTo: blue
-sdk: gradio
-app_file: app.py
-pinned: false
----
 
 # ✍️ Handwritten Digit Recognizer
 
@@ -27,7 +18,3 @@ python app.py        # opens http://127.0.0.1:7860
 - `preprocess.py`  converts a canvas drawing into an MNIST-style 28x28 input
 - `app.py`         Gradio app with a drawing canvas
 
-## Deploy free on Hugging Face Spaces
-1. Create an account at huggingface.co, then New Space -> SDK: Gradio.
-2. Upload all files from this folder **including `digits_classifier.pt`** (it is small, ~400 KB).
-3. The Space builds automatically and gives you a public link to put on LinkedIn.
