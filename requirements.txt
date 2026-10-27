@@ -1,0 +1,4 @@
+torch
+gradio>=5
+numpy
+pillow
